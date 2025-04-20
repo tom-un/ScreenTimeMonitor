@@ -1,0 +1,4 @@
+module ScreenTimeMonitor {
+    header "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build/ScreenTimeMonitor-Swift.h"
+    requires objc
+}

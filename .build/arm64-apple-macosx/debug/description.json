@@ -1,0 +1,317 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.ScreenTimeMonitor-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode_16.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build/sources",
+      "importPath" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/Sources/ScreenTimeMonitor/AboutView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/Sources/ScreenTimeMonitor/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/Sources/ScreenTimeMonitor/OldAppFile.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/Sources/ScreenTimeMonitor/ScreenTimeMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/Sources/ScreenTimeMonitor/ScreenTimeMonitorApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/swift-version-4657CCE4B953477C.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "ScreenTimeMonitor",
+      "moduleOutputPath" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/Modules/ScreenTimeMonitor.swiftmodule",
+      "objects" : [
+        "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build/AboutView.swift.o",
+        "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build/ContentView.swift.o",
+        "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build/OldAppFile.swift.o",
+        "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build/ScreenTimeMonitor.swift.o",
+        "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build/ScreenTimeMonitorApp.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-v",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "ScreenTimeMonitor_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-disable-implicit-swift-modules",
+        "-Xfrontend",
+        "-enable-implicit-dynamic",
+        "-sdk",
+        "/Applications/Xcode_16.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-F",
+        "/Applications/Xcode_16.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode_16.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode_16.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode_16.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode_16.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build/AboutView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build/OldAppFile.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build/ScreenTimeMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build/ScreenTimeMonitorApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/Modules/ScreenTimeMonitor.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/tomun/workspace/screentime/Sources/ScreenTimeMonitor/AboutView.swift",
+        "/Users/tomun/workspace/screentime/Sources/ScreenTimeMonitor/ContentView.swift",
+        "/Users/tomun/workspace/screentime/Sources/ScreenTimeMonitor/OldAppFile.swift",
+        "/Users/tomun/workspace/screentime/Sources/ScreenTimeMonitor/ScreenTimeMonitor.swift",
+        "/Users/tomun/workspace/screentime/Sources/ScreenTimeMonitor/ScreenTimeMonitorApp.swift"
+      ],
+      "tempsPath" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "ScreenTimeMonitor" : [
+      "/Applications/Xcode_16.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ScreenTimeMonitor",
+      "-incremental",
+      "-c",
+      "/Users/tomun/workspace/screentime/Sources/ScreenTimeMonitor/AboutView.swift",
+      "/Users/tomun/workspace/screentime/Sources/ScreenTimeMonitor/ContentView.swift",
+      "/Users/tomun/workspace/screentime/Sources/ScreenTimeMonitor/OldAppFile.swift",
+      "/Users/tomun/workspace/screentime/Sources/ScreenTimeMonitor/ScreenTimeMonitor.swift",
+      "/Users/tomun/workspace/screentime/Sources/ScreenTimeMonitor/ScreenTimeMonitorApp.swift",
+      "-I",
+      "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-v",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "ScreenTimeMonitor_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-disable-implicit-swift-modules",
+      "-Xfrontend",
+      "-enable-implicit-dynamic",
+      "-sdk",
+      "/Applications/Xcode_16.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-F",
+      "/Applications/Xcode_16.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode_16.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode_16.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode_16.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode_16.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode_16.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "ScreenTimeMonitor" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "writeCommands" : {
+    "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor-entitlement.plist"
+    },
+    "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/Sources/ScreenTimeMonitor/AboutView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/Sources/ScreenTimeMonitor/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/Sources/ScreenTimeMonitor/OldAppFile.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/Sources/ScreenTimeMonitor/ScreenTimeMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/Sources/ScreenTimeMonitor/ScreenTimeMonitorApp.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build/sources"
+    },
+    "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build/AboutView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build/OldAppFile.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build/ScreenTimeMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.build/ScreenTimeMonitorApp.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/ScreenTimeMonitor.product/Objects.LinkFileList"
+    },
+    "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/swift-version-4657CCE4B953477C.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode_16.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/tomun/workspace/screentime/.build/arm64-apple-macosx/debug/swift-version-4657CCE4B953477C.txt"
+    }
+  }
+}
